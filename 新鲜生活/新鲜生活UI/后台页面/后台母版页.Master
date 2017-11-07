@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="后台母版页.master.cs" Inherits="新鲜生活UI.后台页面.后台母版页" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
+    <script src="../scipts/jquery-1.11.0.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/tools.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #menuNav li {
+            list-style: none;
+        }
+
+        #menuNav > li > ul > li {
+            padding: 5px 0px 5px 10px;
+        }
+
+        #menuNav .glyphicon {
+            margin-right: 5px;
+        }
+
+        #header {
+            height: 70px;
+            color: white;
+            background-image: url(/后台界面/images/bg.jpg);
+        }
+
+            #header #face {
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+                display: inline;
+            }
+
+        #content_left {
+            float: left;
+            min-width: 150px;
+            width: 2%;
+        }
+
+        #content_right {
+            float: right;
+            width: 88%;
+            min-height: 500px;
+        }
+    </style>
+        <script>
+        $(function () {
+            $("#menuNav>li").click(function () {
+                $(this).children("ul").removeClass("hide");
+                $(this).siblings().children("ul").addClass("hide");
+            });
+        })
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" class="form-horizontal">
+        <div>
+
+
+            <div id="header">
+                <h4>
+                    <img id="face"  src="images/y.jpg" />后台管理中心
+                   <%= Session["txtUserName"] %>
+                </h4>
+            </div>
+            <div id="content">
+                <div id="content_left">
+                    <ul id="menuNav" class="list-group ">
+                    <li class="list-group-item   ">
+                        <span class="glyphicon  glyphicon-user"></span><a href="#">管理员管理</a>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span><a href="管理员列表.aspx">管理员列表</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span><a href="管理员新增.aspx">管理员新增</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item   ">
+                        <span class="glyphicon  glyphicon-user"></span><a href="#">用户管理</a>
+                        <ul class="hide">
+                            <li><span class="glyphicon glyphicon-chevron-right"></span><a href="#">用户列表</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item   ">
+                        <span class="glyphicon  glyphicon-user"></span><a href="#">商品管理</a>
+                        <ul class="hide">
+                            <li><span class="glyphicon glyphicon-chevron-right"></span><a href="商品类型.aspx">商品类型</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span><a href="商品列表.aspx">商品列表</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span><a href="商品添加.aspx">商品添加</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item   ">
+                        <span class="glyphicon  glyphicon-user"></span><a href="#">订单管理</a>
+                        <ul class="hide">
+                            <li><span class="glyphicon glyphicon-chevron-right"></span><a href="订单列表.aspx">订单列表</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>

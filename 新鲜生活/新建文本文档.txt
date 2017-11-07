@@ -1,0 +1,13 @@
+select *,(Case parentClassID 
+when 0 then classID
+else parentClassID end)orderID from ProductClass
+order by orderID
+
+
+select classid,(
+case parentClassID when 0 then className else '>>'+className end
+)className,parentClassID,
+(Case parentClassID 
+when 0 then classID
+else parentClassID end)orderID from ProductClass
+order by orderID,classId

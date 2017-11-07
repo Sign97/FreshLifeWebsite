@@ -1,0 +1,40 @@
+C:\Users\Mr Cao\Desktop\第1章\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Mr Cao\Desktop\第1章\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Mr Cao\Desktop\第1章\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Mr Cao\Desktop\第1章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Cao\Desktop\第1章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Mr Cao\Desktop\第1章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Mr Cao\Desktop\第2章\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Mr Cao\Desktop\第2章\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Mr Cao\Desktop\第2章\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Mr Cao\Desktop\第2章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Cao\Desktop\第2章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Mr Cao\Desktop\第2章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+F:\第2章\WebApplication1\WebApplication1\bin\WebApplication1.dll
+F:\第2章\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+F:\第2章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+F:\第2章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+F:\第2章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+J:\JSP.NET\第3章\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+J:\JSP.NET\第3章\WebApplication1\WebApplication1\bin\WebApplication1.dll
+J:\JSP.NET\第3章\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+J:\JSP.NET\第3章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+J:\JSP.NET\第3章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+J:\JSP.NET\第3章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+J:\JSP.NET\第4章\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+J:\JSP.NET\第4章\WebApplication1\WebApplication1\bin\WebApplication1.dll
+J:\JSP.NET\第4章\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+J:\JSP.NET\第4章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+J:\JSP.NET\第4章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+J:\JSP.NET\第4章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+J:\JSP.NET\第5章\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+J:\JSP.NET\第5章\WebApplication1\WebApplication1\bin\WebApplication1.dll
+J:\JSP.NET\第5章\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+J:\JSP.NET\第5章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+J:\JSP.NET\第5章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+J:\JSP.NET\第5章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\JSP.NET\第5章\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\JSP.NET\第5章\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\JSP.NET\第5章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+E:\JSP.NET\第5章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\JSP.NET\第5章\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
